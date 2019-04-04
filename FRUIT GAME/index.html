@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang = "en">
+    <head>
+        <meta charset = "utf-8">
+        <title>
+            Fruit Game
+        </title>
+        
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+        <link rel="stylesheet" href="https://ajax.googleapis.com/ajax/libs/jqueryui/1.12.1/themes/smoothness/jquery-ui.css">
+        <script src="https://ajax.googleapis.com/ajax/libs/jqueryui/1.12.1/jquery-ui.min.js"></script>
+        
+        <link rel = "stylesheet" href = "style.css">
+    </head>
+    
+    <body>
+        <!--<h1>Fruit Game</h1>-->
+        <div class = "container">
+            <div class = "trials"></div>
+            <button class = "pauseMusic">Pause Background Music</button>
+            <div class = "score">Score : 0</div>
+            <div class = "fruit-box">
+                <img class = "fruit" id = "fruit1">
+            </div>
+            <div class = 'catch'>
+                <button>Catch the Fruits</button>
+            </div>
+
+            <button class = "start-reset start">Start</button>
+            <button class = "start-reset reset">Reset</button>
+            
+            <div class = "finalScore">
+                <div class = "title">Game Over!</div> <br />
+                <div id = "finalScoreValue">0</div>
+            </div>
+        </div>
+        <audio id = "SliceSound">
+            <source src = "Audio/SliceSound.mp3">
+        </audio>
+        
+        <audio id = "backgroundMusic">
+            <source src = "Audio/background.mp3">
+        </audio>
+        <script src = "app.js"></script>
+    </body>
+</html>

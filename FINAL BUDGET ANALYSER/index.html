@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang = "en">
+    <head>
+        <meta charset = "utf-8" />
+        <title>
+            Budget Analyser
+        </title>
+        <link rel = "stylesheet" href= "style.css" type = "text/css" />
+    </head>
+    <body>
+        
+        <div class = "top">
+            <div class = "budget__title">
+                Monthly budget available this month
+            </div>
+            
+            <div class = "total__budget">
+                0
+            </div>
+            <div class = "top__income">
+                <span class = "income__name">INCOME</span>
+                <span class = "income__value">0</span>
+            </div>
+            <div class = "top__expense">
+                <span class = "expense__name">EXPENSE</span>
+                <span class = "expense__value">0</span>
+                <span class = "expense__perc">0 %</span>
+            </div>
+        </div>    
+        
+              
+        <div class = "input">
+            <select class = "input__type" name = "type">
+                <option value = "inc" selected>+ </option>
+                <option value = "exp">-</option>
+            </select>
+            <input class = "input__description" placeholder = "description">
+            <input class = "input__value" placeholder = "value">
+            <button class= "submit"><img src = "submit1.png"></button>
+        </div>
+          
+                             
+        <div class = "bottom">
+            <div class = "bottom__income">
+                <h1>Income</h1>
+                <div class= "income__container">
+                    <!--<div id = "incomeStyle" class = "income-0">
+                        <div class = "desc">New Project</div>
+                        <button class = "cancelBtn">X</button>
+                        <div class = "val">300000</div>
+                    </div>
+                    <div id = "incomeStyle" class = "income-1">
+                        <div class = "desc">New Project</div>
+                        <button class = "cancelBtn">X</button>
+                        <div class = "val">300000</div>
+                    </div>-->
+                </div>
+            </div>
+            <div class = "bottom__expense">
+                <h1>Expenses</h1>
+                <div class= "expense__container">
+                    <!--<div id = "expenseStyle" class = "expense-0">
+                        <div class = "desc">New Project</div>
+                        <button class = "cancelBtn">X</button>
+                        <div class = "val">300000</div>
+                    </div>
+                    <div id = "expenseStyle" class = "expense-1">
+                        <div class = "desc">New Project</div>
+                        <button class = "cancelBtn">X</button>
+                        <div class = "val">300000</div>
+                    </div>-->
+                </div>
+            </div>
+        </div>       
+        <script src = "app.js"></script>
+    </body>
+</html>
