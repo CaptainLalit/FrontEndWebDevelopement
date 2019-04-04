@@ -1,11 +1,11 @@
 # FrontEndWebDevelopement
-Projects
+## Projects
 1. Fruit Game
 2. Pig Game
 2. Budget Analyser
 
 
-Technology used 
+## Technology used 
 1. HTML
 2. CSS
 3. Javascript
