@@ -5,7 +5,7 @@
 2. Budget Analyser
 
 
-## Technology used 
+## Technology or Language used 
 1. HTML
 2. CSS
 3. Javascript
